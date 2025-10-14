@@ -2,15 +2,36 @@
 <!-- Also called a hero image or a jumbotron before bootstrap 5. This might be helpful: https://getbootstrap.com/docs/5.1/examples/jumbotron/ -->
 <style>
     .hero-section {
-        background-image:href= https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=898
+        background-image: url('https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+         position: relative;
     }
+
+ .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 50%;                          
+    left: 0;
+    width: 100%;
+    height: 40%;                      
+    transform: translateY(-50%);       
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-section > div {
+    position: relative;
+    z-index: 2;
+}
 </style>
 
 <header class="hero-section">
     <div class="d-flex align-items-center justify-content-center h-100">
-        <div class="text-center">
+        <div class="text-center text-white">
             <h1>URBAN CAFE</h1>
-            <p>Brewed for the Urban Soul</p>
+            <h4>Brewed for the Urban Soul</h4>
         </div>
     </div>
 </header>

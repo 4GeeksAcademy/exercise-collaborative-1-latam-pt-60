@@ -1,3 +1,8 @@
+emmanuel-contact
+jose-first_heading
+hector-tagline
+jhon-services
+steven-portfolio,navbar,footer
 <!-- hide -->
 # Sitio Web colaborativo (Git collaboration)
 <!-- endhide -->

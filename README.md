@@ -1,3 +1,8 @@
+emmanuel-contact
+jose-first_heading
+hector-tagline
+jhon-services
+steven-portfolio,navbar,footer
 <!-- hide -->
 # Making a website as a team (Git collaboration)
 <!-- endhide -->
